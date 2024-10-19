@@ -13,7 +13,7 @@ var app = express();
 
 // Apply CORS middleware before routes
 app.use(cors({
-  origin: 'https://login-reg-for-backend.vercel.app/',  // Allow your frontend origin
+  origin: 'https://login-reg-form-frontend.vercel.app/',  // Allow your frontend origin
   methods: ['GET', 'POST'],  // Specify allowed methods
   credentials: true  // If you're using cookies or authentication tokens
 }));
